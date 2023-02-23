@@ -13,7 +13,7 @@ body{
     background: #131129;  
 }
 
-nav{
+nav,.container{
     height: 60px;
     width: 100%;
     padding: .5rem;
@@ -21,8 +21,15 @@ nav{
     display: flex;
     align-items: center;  
     justify-content: space-between;
-   
 
+}
+
+nav{
+    justify-content: center;
+    }
+.container{
+    max-width: 1280px;
+    width: 100%;
 }
 
 .menu > img {
@@ -69,5 +76,5 @@ nav{
 }
 .myacc > img{
     height: 32px;
-    width: auto;
 }
+
