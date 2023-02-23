@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background: #131129;
+    background: #131129;  
 }
 
 nav{
@@ -18,5 +18,56 @@ nav{
     width: 100%;
     padding: .5rem;
     background: #1D1932;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+   
 
+}
+
+.menu > img {
+    margin-inline: .5rem;
+}
+
+.search-ac{
+    display: flex;
+    align-items: center;
+    
+}
+
+.searchbar{
+    background-color: #ffffff34;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: .2rem .5rem;
+}
+.searchbar > img {
+    height: 24px;
+    width: 24px;
+    margin-right: .5rem;
+   
+}
+.searchbar > input {
+    height: 28px;
+    width: 200px;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.noti-mode{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: .8rem;
+}
+.noti-mode > img{
+    height: 20px;
+    width: 20px;
+    margin-inline: .5rem;
+}
+.myacc > img{
+    height: 32px;
+    width: auto;
 }
